@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Python, Java, SQL, Git, PyTorch, UNIX, Tensorflow, OpenCV
+percentage: 100, 90, 70, 100, 90, 100, 70, 95

@@ -1,0 +1,69 @@
+# Welcome to Jekyll!
+
+# Website settings
+title: Viraj Mavani's homepage
+description: Viraj Mavani's homepage
+keywords: Viraj, Mavani
+# baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://virajmavani.me  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: Viraj  # Be used at blog posts' author.
+  first_name: Viraj  # Be used at index page about me section.
+  last_name: Mavani  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/me.jpg  # upload your avatar at directory and edit it.
+  github_username: virajmavani  # Leave blank if you don't have now
+  linkedin_id: virajmavani # Leave blank if you don't have now
+  facebook_username: vm1996  # Leave blank if you don't have now
+  twitter_username: vdmavani  # Leave blank if you don't have now
+  email: viraj.mavani@utdallas.edu  # Leave blank if you don't have now
+  cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-apache
+    - name: fa-linux
+  skill_icon2:
+    - name: fa-linux
+    - name: icon-apache
+  desc: I am a graduate student in Computer Science at the University of Texas at Dallas working in Machine Learning and Computer Vision.  # Describe yourself.
+
+# comment
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  name: jalpc
+
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  id: UA-119746100-1
+
+## google optimize
+go:
+  # id:
+
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
+
+## donation
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
+
+## carousels
+index_carousel: on  # index page carousel switch
+blog_carousel: on  # blog page carousel switch
+
+# scss
+sass:
+  style: compressed
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

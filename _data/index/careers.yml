@@ -1,0 +1,57 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: SeRViCE Lab, The University of Texas at Dallas
+    i18n: company_a
+  desc:
+    detail: Currently working on Deep Learning for Visual SLAM by solving the problem of loop-closure in a self-driving vehicle setting
+    i18n: company_a_desc
+  date:
+    detail: Sept. 2018
+    i18n: company_a_date
+  job:
+    detail: Research Fellow
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: UTDesign, The University of Texas at Dallas
+    i18n: company_b
+  desc:
+    detail: Mentored a team of undergrads for their database project using SignalR and Microsoft Azure
+    i18n: company_b_desc
+  date:
+    detail: Oct. 2018 - Dec. 2018
+    i18n: company_b_date
+  job:
+    detail: Project Mentor
+    i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
+    detail: Meditab Software Inc.
+    i18n: company_c
+  desc:
+    detail: Designed a computer vision based system for Traffic Surveillance
+    i18n: company_c_desc
+  date:
+    detail: Mar. 2018 - Jun. 2018
+    i18n: company_c_date
+  job:
+    detail: Artificial Intelligence Intern
+    i18n: company_c_job
+  icon: fa-plus-square
+
+- name:
+    detail: Indian Institute of Technology, Gandhinagar
+    i18n: company_d
+  desc:
+    detail: Research on Facial Expression Recognition using Deep Learning and Crowd Motion Analysis
+    i18n: company_d_desc
+  date:
+    detail: May. 2017 - Jun. 2018
+    i18n: company_d_date
+  job:
+    detail: Research Intern
+    i18n: company_d_job
+  icon: fa-plus-square

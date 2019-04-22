@@ -1,0 +1,21 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: AnnoMage
+  i18n: jalpc
+  gh_user: virajmavani
+  repo: semi-auto-image-annotation-tool
+  img: /static/assets/img/landing/annomage.jpg
+  desc: A Semi Automatic Image Annotation Tool which helps you in annotating images by suggesting you annotations for 80 object classes using a pre-trained model.
+
+- name: DavisBase
+  i18n: cpython
+  gh_user: ozars
+  repo: white-davisbase
+  img: /static/assets/img/landing/utd.png
+  desc: A simple RDBMS implemented from scratch with C++17.
+
+- name: Intersection Detection from Raster Maps
+  i18n: google
+  img: /static/assets/img/landing/utd.png
+  desc: This project proposes a new method to detect intersections this in real time along with training a classifier from Google StreetView Images.
