@@ -18,4 +18,4 @@
 - name: Intersection Detection from Raster Maps
   i18n: google
   img: /static/assets/img/landing/utd.png
-  desc: This project proposes a new method to detect intersections this in real time along with training a classifier from Google StreetView Images.
+  desc: This project proposes a new method to detect intersections in real time along with training a classifier from Google StreetView Images.

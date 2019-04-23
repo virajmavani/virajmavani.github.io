@@ -1,0 +1,20 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: SAF-BAGE - Salient Approach for Facial Soft-Biometric Classification - Age, Gender and Facial Expression
+  i18n: pub1
+  url: https://ieeexplore.ieee.org/abstract/document/8659083
+  img: /static/assets/img/landing/safbage.jpeg
+  desc: Ayesha Gurnani, Kenil Shah, Vandit Gajjar, Viraj Mavani, Yash Khandhediya (Authors Contributed Equally), WACV 2019
+
+- name: ViSHuD - Using Visual Saliency to Improve Human Detection with Convolutional Neural Networks
+  i18n: pub2
+  url: http://openaccess.thecvf.com/content_cvpr_2018_workshops/w39/html/Gajjar_ViS-HuD_Using_Visual_CVPR_2018_paper.html
+  img: /static/assets/img/landing/vishud.png
+  desc: Vandit Gajjar, Yash Khandhediya, Ayesha Gurnani, Viraj Mavani, Mehul Raval, CVPR 2018
+
+- name: Facial Expression Recognition using Visual Saliency and Deep Learning
+  i18n: pub3
+  url: http://openaccess.thecvf.com/content_ICCV_2017_workshops/w40/html/Mavani_Facial_Expression_Recognition_ICCV_2017_paper.html
+  img: /static/assets/img/landing/fer.png
+  desc: Viraj Mavani, Krishna P Miyapuram, Shanmuganathan Raman, ICCV 2017

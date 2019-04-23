@@ -24,6 +24,12 @@
   tpl: projects.html
   css: project
 
+- id: publications
+  i18n: nav.publications
+  name: Publications
+  tpl: publications.html
+  css: project
+
 - id: blog
   i18n: nav.blog
   name: Blog

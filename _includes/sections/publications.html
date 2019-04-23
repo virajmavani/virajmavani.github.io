@@ -1,0 +1,44 @@
+<div class="container" id="i18_publications">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="publications.my_publications">My Publications</span></h1>
+        </div>
+    </div>
+    <div class="row">
+        {% for publication in site.data.index.publications %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if forloop.last %}
+                {% if forloop.last == forloop.first %}
+            <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+                {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+                {% endif %}
+            {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+            {% endif %}
+              <div class="team-member">
+                  <img src="{{ publication.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                  <h4>
+                  {% if publication.url %}
+                  <a href="{{ publication.url }}" target="_blank"><span class="navy">{{ publication.name }}</span></a>
+                  {% elsif publication.repo %}
+                  <a href="https://github.com/{{ publication.gh_user }}/{{ publication.repo }}" target="_blank"><span class="navy">{{ publication.name }}</span></a>
+                  {% else %}
+                  <span class="navy">{{ publication.name }}</span>
+                  {% endif %}
+                  </h4>
+                  <p><span data-i18n="publication.{{ publication.i18n }}">{{ publication.desc }}</span></p>
+                  {% if publication.repo %}
+                  <div user="{{ publication.gh_user }}" repo="{{ publication.repo }}" class="ghbtn">
+                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ publication.gh_user }}/{{ publication.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
+                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ publication.gh_user }}/{{ publication.repo }}/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
+                      <div style="height: 10px;"></div>
+                  </div>
+                  {% endif %}
+              </div>
+          </div>
+      {% endfor %}
+    </div>
+</div>
+<br>
