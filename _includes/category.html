@@ -20,7 +20,11 @@ $(function(){
         {% if category == 'Html' %}
         {% assign category = category | upcase %}
         {% endif %}
+        {% if category == 'Machinelearning' %}
+        <h1>Machine Learning</h1>
+        {% else %}
         <h1>{{ category }}</h1>
+        {% endif %}
     </div>
 </div>
 <div class="wrapper wrapper-content  animated fadeInRight blog">

@@ -1,0 +1,23 @@
+# educations section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: The University of Texas at Dallas
+    i18n: education_a
+  date:
+    detail: Aug. 2018 - Aug. 2020
+    i18n: education_a_date
+  job:
+    detail: M.S. in Computer Science
+    i18n: education_a_job
+  icon: fa-graduation-cap
+
+- name:
+    detail: L. D. College of Engineering
+    i18n: education_b
+  date:
+    detail: Aug. 2014 - Jun. 2018
+    i18n: education_b_date
+  job:
+    detail: B.Engg. in Electronics and Communications Engineering
+    i18n: education_b_job
+  icon: fa-graduation-cap

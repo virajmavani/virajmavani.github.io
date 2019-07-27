@@ -3,9 +3,9 @@ layout: post
 title:  "Hello World!"
 date:   2015-04-15
 desc: "Hello World!"
-keywords: "Jalpc,Jekyll,gh-pages,website,blog,easy"
-categories: [HTML]
-tags: [Jalpc,Jekyll]
+keywords: "website, blog, easy"
+categories: [Personal]
+tags: [Hello, World]
 icon: icon-html
 ---
 
