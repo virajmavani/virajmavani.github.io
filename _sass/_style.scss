@@ -1142,6 +1142,10 @@ label.error {
   }
 }
 
+.dark-timeline {
+  background: #f4f4f4;
+}
+
 .vertical-date small {
   color: #3385FF;
   font-weight: 400;
@@ -1212,6 +1216,14 @@ label.error {
     }
   }
 }
+
+// .vertical-timeline-content.dark-timeline.wow.rotateInUpLeft::before {
+//   background-color: #f4f4f4;
+// }
+
+// .vertical-timeline-content.dark-timeline.wow.rotateInUpRight::before {
+//   background-color: #f4f4f4;
+// }
 
 .slick-next:before, .slick-prev:before {
   color: #3385FF !important;

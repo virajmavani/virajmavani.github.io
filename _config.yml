@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: I am a graduate student in Computer Science at the University of Texas at Dallas working in Machine Learning and Computer Vision.  # Describe yourself.
+  desc: I am a full-stack developer experienced in the MERN stack currently at The University of Texas at Dallas working towards my Masters degree in Computer Science.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
