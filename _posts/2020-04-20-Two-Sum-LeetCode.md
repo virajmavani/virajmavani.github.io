@@ -73,10 +73,94 @@ Space Complexity: O(1)
 </code>
 <br/><br/>
 
-### 2. Better Approach #1 - Sorting
+### 2. Optimal Approach - Using Hash Table 
 
-I know developing intuition for solving LeetCode problems is difficult. Over time, you will understand that there are a few approaches that should first be tried out for each problem. Just try to apply them mentally and think if they would in any way help you in getting to the answer.
+I recall that I once was watching a YouTube video on LeetCoding practices and the content creator said that Hash Tables are very over-powered. You can't come up with a solution, just throw Hash Tables at the problem and you will make some progress. Constant time access IS over-powered.
 
-One such approach is called the two pointer approach. It might be difficult to get to it logically, but on knowing it, it is as simple as it can be.
+Same applies to this problem as well and in this case, it is the most optimal approach known to programmers worldwide.
 
-For this problem, we noticed that there have been no comments on the order of the elements in the array making us assume that it is an unsorted one. We can initially sort the array to get ordering introduced in the problem. Once, we have the ordering we can make decisions by trying out different sum of two elements.
+The idea here is that we can use Hash Table to store the elements and keys and their indices as values. While iterating through each element, we can then check if (target - element) is present in the Hash Table or not. The answer will simply then become the iterator index and the index stored in the Hash Table.
+
+The python code looks something like this:
+
+```
+def two_sum(array, target):
+    n = len(array)
+    htable = {}
+
+    for i in range(n):
+        residual = target - array[i]
+        if residual in htable:
+            return [htable[residual], i]
+        htable[array[i]] = i
+    
+    return []
+```
+
+Isn't it beautiful? Indeed it is. We have sacrificed some space in order to achieve linear time complexity for the solution. The Hash Table uses O(N) space and the time complexity becomes O(N) as well. But, space is cheap and time invaluable. Therefore, this being the most optimal approach.
+
+<code>
+Time Complexity: O(N)
+<br/>
+Space Complexity: O(N)
+</code>
+<br/><br/>
+
+### Alternative Problem Statement - Sorting
+
+___Return Elements___
+
+When asked to return the elements and not the indices, the following is also one of the approaches. It is not as good as the Hash Table approach, but still is better than brute force.
+
+The approach is called the two pointer approach. It might be difficult to get to it logically, but on knowing it, it is as simple as it can be.
+
+In this problem, we noticed that there have been no comments on the order of the elements in the array making us assume that it is an unsorted one. We can initially sort the array to get ordering introduced in the problem. Once, we have the ordering we can make decisions by trying out different sum of two elements.
+
+For any indices [i, j] (where i < j) in the sorted array, we can
+safely say that if the sum of the elements at i and j is greater than
+the target, then we might want to decrement j in order to get to the
+target. Same applies vice versa, that is, if the sum is less than the
+target, incrementing i will rbing us closer to the solution.
+
+Basically, we will start with i = 0 and j = n-1 (where n = len(array))
+adn increment i or decrement j in accordance with the sum of the
+elements at i and j.
+
+The python code for this approach looks something like this:
+
+```
+def two_sum(array, target):
+    n = len(array)
+    i = 0
+    j = n-1
+
+    # Sort array in place
+    array.sort()
+
+    while i < j:
+        curr_sum = array[i] + array[j]
+        if curr_sum == target:
+            return [array[i], array[j]]
+        if curr_sum < target:
+            i += 1
+        else:
+            j -= 1
+    
+    return []
+```
+
+The computational complexities for this approach are given below:
+
+<code>
+Time Complexity: O(N*log(N))
+<br/>
+Space Complexity: O(1) // as sorting in place
+</code>
+<br/><br/>
+
+## End Note
+-------------------------------------
+I know developing intuition for solving LeetCode problems is difficult. Over time, you will understand that there are a few approaches that should first be tried out for each problem. Just try to apply them mentally and think if they would in any way help you in getting to the answer. One such approach that we learned today is the Two Pointer Approach.
+
+
+___Later.___
