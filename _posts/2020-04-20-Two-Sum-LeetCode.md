@@ -11,7 +11,7 @@ icon: icon-html
 
 ## Introduction
 -------------------------------------
-As "Hello, World!" is to Programming, so is the Two Sum problem to LeetCode. Any blog series or YouTube channel targetted towards solving LeetCode problems has to first pay deference to this problem. It is therefore implied that this blog series will be no different.
+As "Hello, World!" is to Programming, so is the Two Sum problem to LeetCode. Any blog series or YouTube channel targeted towards solving LeetCode problems has to first pay deference to this problem. It is therefore implied that this blog series will be no different.
 
 So let's just jump right into it.
 <br/><br/>
