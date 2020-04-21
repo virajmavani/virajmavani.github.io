@@ -1,8 +1,8 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Viraj Mavani's homepage
-description: Viraj Mavani's homepage
+title: Viraj Mavani
+description: Viraj Mavani's Portfolio and Blog
 keywords: Viraj, Mavani
 # baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://virajmavani.me  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: I am a software developer and machine learning enthusiast experienced in the MERN stack and Computer Vision. Currently at The University of Texas at Dallas working towards my Masters degree in Computer Science graduating in May 2020.  # Describe yourself.
+  desc: I am a software developer and machine learning enthusiast. I am currently at The University of Texas at Dallas working towards my Masters degree in Computer Science graduating in May 2020. I am open to new and exciting career opportunities. # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
