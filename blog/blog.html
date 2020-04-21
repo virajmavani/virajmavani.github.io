@@ -25,6 +25,10 @@ permalink: /blog/
                         <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
                             {{ post.title }}
                         </a>
+                        <p class="vote-content">
+                            {{ post.content | strip_html | truncate:400 }}
+                            <a href="{{ post.url | prepend: site.baseurl }}">continue reading</a>
+                        </p>
                         <div class="vote-info">
                         {% if site.disqus %}
                             <i class="fa fa-comments-o"> </i> <a>Comments (<span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}">0</span>)</a>

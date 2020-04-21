@@ -1992,6 +1992,20 @@ ul.clear-list:first-child {
   margin-bottom: 2px;
 }
 
+.vote-content {
+  color: inherit;
+  font-size: 14px;
+  margin-right: 15px;
+  padding: 20px 25px;
+  a {
+    color: #3385FF;
+    margin-right: 10px;
+    &:hover {
+      color: #b4b6b8;
+    }
+  }
+}
+
 .vote-info {
   color: #b4b6b8;
   font-size: 12px;
