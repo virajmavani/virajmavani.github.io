@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "#1 Two Sum - LeetCode Problem"
+title:  "#1 Two Sum - LeetCode"
 date:   2020-04-20
 desc: "Two Sum Problem Walktrough from LeetCode"
 keywords: "coding, competitive coding, leetcode, hackerrank, interview, question"
 categories: [Leetcode]
-tags: [\#1, Two Sum, LeetCode, Interview Question]
+tags: ["#1", Two Sum, LeetCode, Interview Question]
 icon: icon-html
 ---
 
-## Introduction
--------------------------------------
 As "Hello, World!" is to Programming, so is the Two Sum problem to LeetCode. Any blog series or YouTube channel targeted towards solving LeetCode problems has to first pay deference to this problem. It is therefore implied that this blog series will be no different.
 
 So let's just jump right into it.
