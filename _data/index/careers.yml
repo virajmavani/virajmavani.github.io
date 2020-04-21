@@ -5,10 +5,10 @@
     detail: 7-Eleven Inc.
     i18n: s_el
   desc:
-    detail: Working on market analysis to model customer behavior in the retail sector using big-data and cloud technologies
+    detail: Successfully delivered a trend decomposition system using Facebook Prophet to production with 5.36% mean error. Deployed a React.js web dashboard for viewing the results with backend scripting in Node.js. Skills Utilized - Python, Spark, Facebook Prophet, Scikit-learn, Databricks, React.js, Node.js.
     i18n: s_el_desc
   date:
-    detail: May 2019 - Present
+    detail: May 2019 - August 2019
     i18n: s_el_date
   job:
     detail: Machine Learning Intern
@@ -19,28 +19,14 @@
     detail: SeRViCE Lab, The University of Texas at Dallas
     i18n: company_a
   desc:
-    detail: Currently working on Deep Learning for Visual SLAM by solving the problem of loop-closure in a self-driving vehicle setting
+    detail: Designed and developed an image classifier for loop-closure detection for Visual SLAM in an autonomous vehicle setting. Ideated and implemented a new system to make datasets hosted on web servers and a REST API to access them while training thus enabling dataset modifications after release. Skills Utilized - Python, PyTorch, urllib.
     i18n: company_a_desc
   date:
-    detail: Sept. 2018
+    detail: Sept. 2018 - May 2019
     i18n: company_a_date
   job:
-    detail: Research Fellow
+    detail: Research Assistant
     i18n: company_a_job
-  icon: fa-building
-
-- name:
-    detail: UTDesign, The University of Texas at Dallas
-    i18n: company_b
-  desc:
-    detail: Mentored a team of undergrads for their database project using SignalR and Microsoft Azure
-    i18n: company_b_desc
-  date:
-    detail: Oct. 2018 - Dec. 2018
-    i18n: company_b_date
-  job:
-    detail: Project Mentor
-    i18n: company_b_job
   icon: fa-building
 
 - name:
@@ -61,7 +47,7 @@
     detail: Indian Institute of Technology, Gandhinagar
     i18n: company_d
   desc:
-    detail: Research on Facial Expression Recognition using Deep Learning and Crowd Motion Analysis
+    detail: Conducted research on impacts of cognitive data on facial expression recognition by deep learning classifiers. Resulted in publications at ICCV, CVPR. Skills Utilized - Python, Tensorflow, PyTorch, NVIDIA DIGITS.
     i18n: company_d_desc
   date:
     detail: May. 2017 - Jun. 2018

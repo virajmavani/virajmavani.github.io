@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Python, Java, SQL, Git, Node.js, UNIX, React, Mongo DB
-percentage: 90, 80, 70, 85, 75, 90, 65, 75
+aspects: Python, Java, SQL, Node.js, Git, React, UNIX, Mongo DB
+percentage: 90, 80, 70, 75, 85, 65, 90, 75
