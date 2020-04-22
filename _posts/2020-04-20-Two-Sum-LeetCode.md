@@ -49,7 +49,7 @@ We can simply iterate over each element and for each such element, we can iterat
 
 The python code will look something like this:
 <br/>
-```
+```python
 def two_sum(array, target):
     n = len(array)
     for i in range(n):
@@ -81,7 +81,7 @@ The idea here is that we can use Hash Table to store the elements and keys and t
 
 The python code looks something like this:
 
-```
+```python
 def two_sum(array, target):
     n = len(array)
     htable = {}
@@ -126,7 +126,7 @@ elements at i and j.
 
 The python code for this approach looks something like this:
 
-```
+```python
 def two_sum(array, target):
     n = len(array)
     i = 0
