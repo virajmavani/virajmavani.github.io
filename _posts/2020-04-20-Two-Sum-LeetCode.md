@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "#1 Two Sum - LeetCode"
+title:  "Two Sum - LeetCode #1"
 date:   2020-04-20
 desc: "Two Sum Problem Walktrough from LeetCode"
 keywords: "coding, competitive coding, leetcode, hackerrank, interview, question"
