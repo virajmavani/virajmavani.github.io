@@ -14,7 +14,7 @@ As "Hello, World!" is to Programming, so is the Two Sum problem to LeetCode. Any
 So let's just jump right into it.
 <br/><br/>
 
-## Two Sum Problem Statement
+## Problem Statement
 -------------------------------------
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
