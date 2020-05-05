@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnnoMage</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap-theme.min.css">
+
+    <!-- Google fonts -->
+    <link href="../css/google-fonts.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Analytics -->
+    <link rel="stylesheet" type="text/css" href="static/css/saiat.css">
+  </head>
+
+
+<body>
+<div class='container-fluid'>
+  
+<div class='row'>
+  <div class='col-xs-2 text-center'>
+    <a href="https://ldce.ac.in/">
+      <img src="static/assets/img/saiat/LDCE_LOGO.png" class='img-logo'>
+    </a>
+  </div>
+  <div class='col-xs-8 text-center'>
+    <h1>AnnoMage: A Semi-Automatic Image Annotation Tool</h1>
+  </div>
+  <div class='col-xs-2 center-block'>
+    <a href='https://github.com/virajmavani/semi-auto-image-annotation-tool'>
+      <img src='static/assets/img/saiat/annomage.jpg' class='img-logo'>
+    </a>
+  </div>
+</div>
+
+<div class='row section highlight'>
+  <div class='col-xs-6 col-xs-offset-3 text-justify'>
+  <h2>Abstract</h2>
+  When building artificial intelligence systems that can detect objects from any scene, 
+  we need a huge dataset to train and test our models on and discover shortcomings. 
+  Existing tools for image annotation can help, but they require much work to be put in. 
+  We therefore present a new image annotation tool that incorporates an existing state-of-the-art 
+  object detection model called RetinaNet to show suggestions of 80 common object classes while 
+  annotation to reduce the amount of human effort to be put in to annotate images.
+  </div>
+</div>
+
+<div class='row section center'>
+  <div class='col-xs-6 col-xs-offset-3 text-center'>
+    <a href="https://github.com/virajmavani/semi-auto-image-annotation-tool">
+      <img src='static/assets/img/saiat/demo_enlarged.gif' class='img-responsive' style="text-align: center;">
+      Download Source (GitHub)
+    </a>
+  </div>
+</div>
+
+<div class='row section text-center' style='color:#900'>
+  <h4>For the community!</h4>
+</div>
+
+<div class='row section highlight'>
+  <div class='col-xs-8 col-xs-offset-2 text-justify'>
+    <h2>User Guide</h2>
+    <h3>Installation</h3>
+    <ol>
+      <li>Clone this repository.</li>
+      <li>In the repository, execute `pip install -r requirements.txt`.
+        Note that due to inconsistencies with how `tensorflow` should be installed,
+        this package does not define a dependency on `tensorflow` as it will try to install that (which at least on Arch Linux results in an incorrect installation).
+        Please make sure `tensorflow` is installed as per your systems requirements.
+        Also, make sure Keras 2.1.3 or higher and OpenCV 3.x is installed.</li>
+      <li>
+        <ol type="a">
+          <li>For Keras model - Download the <a href="https://github.com/fizyr/keras-retinanet/releases/download/0.3.1/resnet50_coco_best_v2.1.0.h5">pretrained weights</a> and save it in /snapshots/keras.</li>
+          <li>For tensorflow model get the desired model from <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md">here</a> and extract it in /sanpshots/tensorfow</li>
+          <li>You can even save custom pre trained model in the respective directory.</li>
+        </ol>
+    </ol>
+    <h3>Instructions</h3>
+    <ol>
+      <li>Select the COCO object classes for which you need suggestions from the drop-down menu and add them. Or simply click on Add all classes.</li>
+      <li>Select the desired model and click on Add model.</li>
+      <li>Click on detect button.</li>
+      <li>When annotating manually, select the object class from the List and while keep it selected, select the BBox.</li>
+      <li>The final annotations can be found in the file annotations.csv in ./annotations/ . Also a xml file will saved.</li>
+    </ol>
+    <h3>Usage</h3>
+    For MSCOCO dataset
+    <br/>
+    <code>python main.py</code>
+    <br/>
+    For any other dataset-
+    <br/>
+    First change the labels in config.py (for keras model) or in tf_config.py( for tensorflow model). Then run:
+    <br/>
+    <code>python main.py</code>
+    
+    <h3>Tested on:</h3>
+    <ul>
+      <li>Windows 10</li>
+      <li>Linux 16.04</li>
+      <li>macOS High Sierra</li>
+    </ul>
+
+    <h3>Join the developers channel for contributions</h3>
+    Slack: <a href="https://join.slack.com/t/annomage/shared_invite/zt-dh4ca9du-4VOcwUMCSNA6lmyG~tNUPg">https://join.slack.com/t/annomage/shared_invite/zt-dh4ca9du-4VOcwUMCSNA6lmyG~tNUPg</a>
+  </div>
+</div>
+
+<div class='row section'>
+  <div class='col-xs-10 col-xs-offset-1'>
+    <h2>Acknowledgments</h2>
+    <ol>
+      <li><a href="https://www.meditab.com/">Meditab Software Inc.</a></li>
+      <li><a href="https://github.com/fizyr/keras-retinanet">Keras implementation of RetinaNet object detection</a></li>
+      <li><a href="https://cvgldce.github.io/">Computer Vision Group</a>, L.D. College of Engineering</li>
+    </ol>
+  </div>
+</div>
+
+</div>
+
+
+</body>
+</html>
