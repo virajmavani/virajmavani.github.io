@@ -12,7 +12,7 @@
   i18n: eldt
   gh_user: virajmavani
   repo: ensemble-decision-trees 
-  img: /static/assets/img/landing/utd.png 
+  img: /static/assets/img/landing/ensemble.jpg 
   desc: Implementation of Ensemble Learning algorithms Bagging and AdaBoost in pure Python and Numpy based on ID3 Decision Trees.
 
 - name: Patel Art Portfolio
@@ -26,10 +26,10 @@
   i18n: dbase
   gh_user: ozars
   repo: white-davisbase
-  img: /static/assets/img/landing/utd.png
+  img: /static/assets/img/landing/dbase.png
   desc: A simple RDBMS implemented from scratch with C++17.
 
 - name: Intersection Detection from Raster Maps
   i18n: intersection_detection
-  img: /static/assets/img/landing/utd.png
+  img: /static/assets/img/landing/raster.jpg
   desc: This project proposes a new method to detect intersections in real time along with training a classifier from Google StreetView Images.
