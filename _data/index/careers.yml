@@ -2,6 +2,20 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
+    detail: Walmart Inc.
+    i18n: wm
+  desc:
+    detail: Currently working on Fraud Detection Engine preventing fraud worth $100M every year. Skills Utilized - Python, Spark, Scikit-learn, Databricks, Flask.
+    i18n: wm_desc
+  date:
+    detail: June 2020 - Present
+    i18n: wm_date
+  job:
+    detail: Software Engineer II
+    i18n: wm_job
+  icon: fa-briefcase
+
+- name:
     detail: 7-Eleven Inc.
     i18n: s_el
   desc:
@@ -22,7 +36,7 @@
     detail: Designed and developed an image classifier for loop-closure detection for Visual SLAM in an autonomous vehicle setting. Ideated and implemented a new system to make datasets hosted on web servers and a REST API to access them while training thus enabling dataset modifications after release. Skills Utilized - Python, PyTorch, urllib.
     i18n: company_a_desc
   date:
-    detail: Sept. 2018 - May 2019
+    detail: September 2018 - May 2019
     i18n: company_a_date
   job:
     detail: Research Assistant
@@ -36,7 +50,7 @@
     detail: Designed a computer vision based system for Traffic Surveillance
     i18n: company_c_desc
   date:
-    detail: Mar. 2018 - Jun. 2018
+    detail: March 2018 - June 2018
     i18n: company_c_date
   job:
     detail: Software Engineering Intern (Artificial Intelligence)
