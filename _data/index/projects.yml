@@ -2,20 +2,34 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 - name: AnnoMage
-  i18n: jalpc
+  i18n: annomage
   gh_user: virajmavani
   repo: semi-auto-image-annotation-tool
   img: /static/assets/img/landing/annomage.jpg
   desc: A Semi Automatic Image Annotation Tool which helps you in annotating images by suggesting you annotations for 80 object classes using a pre-trained model.
 
+- name: Ensemble Learning Algorithms for Decision Trees
+  i18n: eldt
+  gh_user: virajmavani
+  repo: ensemble-decision-trees 
+  img: /static/assets/img/landing/utd.png 
+  desc: Implementation of Ensemble Learning algorithms Bagging and AdaBoost in pure Python and Numpy based on ID3 Decision Trees.
+
+- name: Patel Art Portfolio
+  i18n: patelart
+  gh_user: patelart
+  repo: patelart.github.io
+  img: /static/assets/img/landing/utd.png
+  desc: Portfolio for Patel Art, India. Link - www.patelart.com
+
 - name: DavisBase
-  i18n: cpython
+  i18n: dbase
   gh_user: ozars
   repo: white-davisbase
   img: /static/assets/img/landing/utd.png
   desc: A simple RDBMS implemented from scratch with C++17.
 
 - name: Intersection Detection from Raster Maps
-  i18n: google
+  i18n: intersection_detection
   img: /static/assets/img/landing/utd.png
   desc: This project proposes a new method to detect intersections in real time along with training a classifier from Google StreetView Images.
