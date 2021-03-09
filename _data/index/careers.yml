@@ -19,7 +19,7 @@
     detail: 7-Eleven Inc.
     i18n: s_el
   desc:
-    detail: Successfully delivered a trend decomposition system using Facebook Prophet to production with 5.36% mean error. Deployed a React.js web dashboard for viewing the results with backend scripting in Node.js. Skills Utilized - Python, Spark, Facebook Prophet, Scikit-learn, Databricks, React.js, Node.js.
+    detail: Successfully delivered and forged a new key performance indicator (KPI) using a trend decomposition system built with Facebook Prophet to production with 5.36% mean error for gas station performance analysis across the USA. Deployed a React.js web dashboard for visualization of performance at store-level with the backend built using Node.js.
     i18n: s_el_desc
   date:
     detail: May 2019 - August 2019
