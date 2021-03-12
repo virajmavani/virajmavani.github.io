@@ -33,3 +33,9 @@
   i18n: intersection_detection
   img: /static/assets/img/landing/raster.jpg
   desc: This project proposes a new method to detect intersections in real time along with training a classifier from Google StreetView Images.
+  
+- name: Bifrost
+  i18n: bifrost
+  gh_user: virajmavani
+  repo: bifrost-backend
+  desc: A new tab page for Browsers enabling quick filters for Google Search having serverless Spring Boot API in backend.
