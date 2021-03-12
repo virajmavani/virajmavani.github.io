@@ -38,4 +38,5 @@
   i18n: bifrost
   gh_user: virajmavani
   repo: bifrost-backend
+  img: /static/assets/img/landing/bifrost.png
   desc: A new tab page for Browsers enabling quick filters for Google Search having serverless Spring Boot API in backend.
