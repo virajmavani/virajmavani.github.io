@@ -98,7 +98,6 @@ h3, h4, h5 {
 .navbar-top-links li a {
   padding: 20px 10px;
   min-height: 50px;
-  color: #3385FF;
 }
 
 .dd-item > button, code {
@@ -2434,7 +2433,8 @@ body {
     border-color: transparent;
     transition: all .3s ease-in-out 0s;
     .nav li a {
-      color: #fff;
+    //   color: #fff;
+      color: #3385FF;
       font-family: 'Open Sans', helvetica, arial, sans-serif;
       font-weight: 700;
       letter-spacing: 1px;
