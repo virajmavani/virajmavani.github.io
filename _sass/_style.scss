@@ -2467,7 +2467,8 @@ body {
       }
       .active > a:focus {
         background: 0 0;
-        color: #fff;
+        // color: #fff;
+        color: #3385FF;
       }
     }
     &.navbar-scroll .navbar-nav > .active > a:focus {
