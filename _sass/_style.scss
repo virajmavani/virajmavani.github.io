@@ -43,8 +43,7 @@ h3, h4, h5 {
 
 .nav {
   > li > a {
-    // color: #a7b1c2;
-    color: #3385FF;
+    color: #a7b1c2;
     font-weight: 600;
     padding: 14px 20px 14px 25px;
   }
@@ -99,6 +98,7 @@ h3, h4, h5 {
 .navbar-top-links li a {
   padding: 20px 10px;
   min-height: 50px;
+  color: #3385FF;
 }
 
 .dd-item > button, code {
