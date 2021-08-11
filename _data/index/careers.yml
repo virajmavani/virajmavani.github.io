@@ -2,13 +2,27 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name:
+    detail: Amazon Web Services
+    i18n: aws
+  desc:
+    detail: Currently working on Access Models for managed customer account at AWS Managed Services organization. Skills Utilized - Java, Python, AWS Lambda, AWS EC2, AWS DynamoDB, AWS Systems Manager.
+    i18n: aws_desc
+  date:
+    detail: June 2021 - Present
+    i18n: aws_date
+  job:
+    detail: Software Development Engineer
+    i18n: aws_job
+  icon: fa-amazon
+
+- name:
     detail: Walmart Inc.
     i18n: wm
   desc:
-    detail: Currently working on Fraud Detection Engine preventing fraud worth $100M every year. Skills Utilized - Python, Spark, Scikit-learn, Databricks, Flask.
+    detail: Successfully contributed to Fraud Detection Engine preventing fraud worth $100M every year. Skills Utilized - Python, Spark, Scikit-learn, Databricks, Flask.
     i18n: wm_desc
   date:
-    detail: June 2020 - Present
+    detail: June 2020 - May 2021
     i18n: wm_date
   job:
     detail: Software Engineer II
