@@ -43,13 +43,13 @@ h3, h4, h5 {
 
 .nav {
   > li > a {
-    color: #a7b1c2;
+    // color: #a7b1c2;
+    color: #3385FF;
     font-weight: 600;
     padding: 14px 20px 14px 25px;
   }
   &.navbar-right > li > a {
-    // color: #999c9e;
-    color: #3385FF;
+    color: #999c9e;
   }
   > li.active > a {
     color: #fff;
