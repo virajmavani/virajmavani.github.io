@@ -5,7 +5,7 @@
     detail: Amazon Web Services
     i18n: aws
   desc:
-    detail: Currently working on Access Models for managed customer accounts at AWS Managed Services organization. Skills Utilized - Java, Python, AWS Lambda, AWS EC2, AWS DynamoDB, AWS Systems Manager.
+    detail: Working with AWS Fraud Prevention Team to protect customers from the risk of fraud and abuse across the world. Primary responsibilities include designing, developing and managing large scale systems to handle credentials compromise, account takeovers and outright fraud cases across all of AWS regions. Micro-services, SOA, distributed systems design and development.
     i18n: aws_desc
   date:
     detail: June 2021 - Present
