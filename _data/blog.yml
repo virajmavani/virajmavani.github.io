@@ -4,13 +4,13 @@
 
 # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
 - name: "LeetCode"
-  href: /leetcode/
+  href: /blog/leetcode/
 
-- name: "Machine Learning"
-  href: /machinelearning/
+- name: "Software Engineering"
+  href: /blog/software/
 
 - name: Personal
-  href: /personal/
+  href: /blog/personal/
 
 # - name: HTML
 #   href: /html/
