@@ -13,7 +13,7 @@
   job:
     detail: Software Engineer
     i18n: meta_job
-  icon: fa-meta
+  icon: fa-brands fa-meta
 
 - name:
     detail: Amazon Web Services
@@ -27,7 +27,7 @@
   job:
     detail: Software Development Engineer
     i18n: aws_job
-  icon: fa-aws
+  icon: fa-brands fa-aws
 
 - name:
     detail: Walmart Inc.
