@@ -12,7 +12,7 @@
             {% assign loopindex = forloop.index | modulo: 2 %}
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                        <i class="fa-brands {{ career.icon }}"></i>
+                        <i class="fa {{ career.icon }}"></i>
                     </div>
                     <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
                         <h2><span data-i18n="career.{{ career.name.i18n }}">{{ career.name.detail }}</span></h2>
