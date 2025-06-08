@@ -17,9 +17,10 @@ author:  # change following line to your infomation.
   avatar: /static/assets/img/landing/me.jpg  # upload your avatar at directory and edit it.
   github_username: virajmavani  # Leave blank if you don't have now
   linkedin_id: virajmavani # Leave blank if you don't have now
+  google_scholar_id: lGoVixMAAAAJ # Leave blank if you don't have now
   facebook_username: vm1996  # Leave blank if you don't have now
   twitter_username: vdmavani  # Leave blank if you don't have now
-  email: viraj.mavani@utdallas.edu  # Leave blank if you don't have now
+  email: viraj.mavani1996@gmail.com  # Leave blank if you don't have now
   cv: https://virajmavani.com/VirajMavaniResume.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
@@ -28,7 +29,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: I am a software developer and machine learning enthusiast currently working as a backend Software Engineer at Amazon Web Services. When I am not working, you will find me playing open-world or stealth games on my console. I am open to new and exciting career opportunities. # Describe yourself.
+  desc: I am a software developer and machine learning enthusiast currently working as a Software Engineer at Meta. When I am not working, you will find me playing open-world or stealth games on my console. I am open to new and exciting career opportunities. # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

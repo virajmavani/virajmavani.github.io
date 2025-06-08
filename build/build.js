@@ -19,6 +19,9 @@ cp('-f', 'node_modules/font-mfizz/dist/font-mfizz.svg', 'static/assets/');
 cp('-f', 'node_modules/font-mfizz/dist/font-mfizz.ttf', 'static/assets/');
 cp('-f', 'node_modules/font-mfizz/dist/font-mfizz.woff', 'static/assets/');
 
+// Copy FontAwesome files
+cp('-rf', 'node_modules/@fortawesome/fontawesome-free/webfonts', 'static/assets/webfonts');
+
 // change link/src files to new file path
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/index_head.html');
 sed('-i', /(.*)[0-9]{8}(.*)/, '$1' + nowDateStr + '$2', '_includes/head.html');
@@ -58,8 +61,8 @@ function compresscss(pagename, filename, filelist) {
                     if (propertyName == 'src' && propertyValue.indexOf('node_modules/bootstrap/dist/') > -1) {
                         return propertyValue.replace('node_modules/bootstrap/dist/', '');
                     }
-                    if (propertyName == 'src' && propertyValue.indexOf('node_modules/components-font-awesome/') > -1) {
-                        return propertyValue.replace('node_modules/components-font-awesome/', '');
+                    if (propertyName == 'src' && propertyValue.indexOf('node_modules/@fortawesome/fontawesome-free/') > -1) {
+                        return propertyValue.replace('node_modules/@fortawesome/fontawesome-free/', '');
                     }
                     if (propertyName == 'src' && propertyValue.indexOf('node_modules/font-mfizz/dist/') > -1) {
                         return propertyValue.replace('node_modules/font-mfizz/dist/', '');
